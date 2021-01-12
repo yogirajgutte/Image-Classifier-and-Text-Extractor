@@ -4,4 +4,6 @@
 
 3) 'What's On My Screen' folder contains the standalone app based on the CNN model. More details are present in the folder.
 
+4) Extract 'Model_tf.zip' to the same directory.
+
 4) 'Model_tf' folder contains the trained model. It is important as both the apps use data from this folder. There's no need to open this folder.
