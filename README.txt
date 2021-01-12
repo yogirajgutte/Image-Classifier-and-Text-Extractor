@@ -1,0 +1,7 @@
+1) 'Model Training and Testing' folder contains the Jupyter Notebooks with code for training and testing of the models.
+
+2) 'Web-Based GUI' folder contains a web-based app which can be used for data visualization and model testing.
+
+3) 'What's On My Screen' folder contains the standalone app based on the CNN model. More details are present in the folder.
+
+4) 'Model_tf' folder contains the trained model. It is important as both the apps use data from this folder. There's no need to open this folder.

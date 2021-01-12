@@ -1,0 +1,11 @@
+Category,No. of Training Samples,No. of Validation Samples
+Building,2191,437
+Car,8144,3400
+Dog,8749,3751
+Flower,8149,1360
+Forest,2271,474
+People,9315,3083
+Pizza,4200,800
+Sea,2274,510
+Ship,6282,2650
+Traffic Sign,4170,1994
