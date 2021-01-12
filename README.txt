@@ -1,3 +1,9 @@
+This tool was made by me and my colleage as a project for college.
+Follow the guidelines given below in order to use it.
+
+
+
+
 1) 'Model Training and Testing' folder contains the Jupyter Notebooks with code for training and testing of the models.
 
 2) 'Web-Based GUI' folder contains a web-based app which can be used for data visualization and model testing.
