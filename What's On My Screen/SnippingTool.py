@@ -8,7 +8,7 @@ from PyQt5.QtCore import Qt
 import os
 cwd = os.getcwd()
 
-from selenium import webdriver
+import webbrowser
 import pytesseract
 import pyperclip
 
@@ -225,16 +225,7 @@ class SearchAboutImage(SnippingWidget):
 
             search_key = search_key.replace(' ', '+')
             
-            try: 
-                browser = webdriver.Chrome(cwd + '/'+ './chromedriver.exe') 
-                browser.get("https://www.google.com/search?q=" + search_key + "&start=1")
-            except:
-                print("Error! 'chromedriver.exe' not found. Make sure it is present in current working directory.")
-                msg = QtWidgets.QMessageBox()
-                msg.setWindowTitle('ERROR!')
-                msg.setText("'chromedriver.exe' not found. Make sure it is present in current working directory.")
-                msg.setIcon(QtWidgets.QMessageBox.Critical)
-                x = msg.exec_()    
+            webbrowser.open("https://www.google.com/search?q=" + search_key + "&start=1")
 
         self.begin = QtCore.QPoint()
         self.end = QtCore.QPoint()
