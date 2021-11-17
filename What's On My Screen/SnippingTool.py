@@ -263,7 +263,7 @@ class CopyTextToClipboard(SnippingWidget):
             img = cv2.cvtColor(np.array(img), cv2.COLOR_BGR2RGB)
 
         
-
+            # experimental code for converting the image to grayscale
             # gray = cv2.cvtColor(img, cv2.COLOR_RGB2GRAY)
             # gray, img_bin = cv2.threshold(gray,128,255,cv2.THRESH_BINARY | cv2.THRESH_OTSU)
             # gray = cv2.bitwise_not(img_bin)
